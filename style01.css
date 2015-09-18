@@ -214,9 +214,8 @@
 box-shadow: inset 0px 0px 12px 2px #fff7ed;
 /*Inner elements should not cover inner shadows*/
 /*IE 7 AND 8 DO NOT SUPPORT INSET SHADOWS*/
-
 border-radius: 6px;
-background:#222 url(http://api.thumbr.it/whitenoise-361x370.png?background=081c2400&noise=9c8c6d&density=27&opacity=25);
+background:#222;
 
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
