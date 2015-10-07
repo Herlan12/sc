@@ -101,18 +101,10 @@ padding-bottom:2px;padding-top:2px;padding-left:5px;border-radius: 5px;
 }
 
 .ttw-music-player .rating {display:none;
-    width: 75px;
-    height: 16px;
-}
+    }
 
 .ttw-music-player .rating-star {display:none;
-    width: 15px;
-    height: 16px;
-    display: block;
-    float: left;
-    background: transparent url(http://3.bp.blogspot.com/-QUFQG0T1K7A/Ve-tsiDrI_I/AAAAAAAABnQ/YqnCH8vdHH8/s1600/rating-off.png) no-repeat center center scroll;
-    cursor: pointer;
-}
+    }
 
 .ttw-music-player .rating-star:hover,
 .ttw-music-player .rating-star.on,
@@ -267,9 +259,9 @@ border-radius: 6px;
 
 
 .ttw-music-player .tracklist .title {
-    width: 164px;
+    width: 214px;
     display: inline-block;
-    padding: 0 0 0 14px;
+    padding: 0 0 0 0px;
     cursor: pointer;
 }
 
@@ -282,23 +274,11 @@ border-radius: 6px;
 
 }
 
-.ttw-music-player .tracklist .rating {
-    margin-left: 10px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    right: 72px;
-    top: 12.5px;
-}
+.ttw-music-player .tracklist .rating {display:none;
+    }
 
-.ttw-music-player .rating-bar {
-    height: 10px;
-    width: 3px;
-    display: block;
-    float: left;
-    cursor: pointer;
-    background: transparent url(http://4.bp.blogspot.com/-nBLa47_oCjk/Ve-tsdmkZnI/AAAAAAAABnM/sO--tdHFWEY/s1600/rating-bar.png) no-repeat 0 0 scroll;
-}
+.ttw-music-player .rating-bar{display:none;
+    }
 
 .ttw-music-player .rating-bar.on,
 .ttw-music-player .rating-bar:hover,
