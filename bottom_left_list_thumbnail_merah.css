@@ -10,30 +10,11 @@
 }
 
 /** Album Cover **/
-.ttw-music-player .album-cover {
-    position: relative;
-    float: right;
-    background: #333 url(http://4.bp.blogspot.com/-sV3xtXmEt5I/Ve-tlyOs0vI/AAAAAAAABlk/cCG-tnfcM0o/s1600/album-cover-bg.jpg) no-repeat 0 0 scroll;;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, .75);
-    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, .75);
-    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, .75);
- bottom:5px;POSITION: fixed;right:5px;
-}
+.ttw-music-player .album-cover {display:none;}
 
-.ttw-music-player .album-cover .img {
-    box-shadow: inset 0 0 1px rgba(255, 255, 255, .6);
-    -moz-box-shadow: inset 0 0 1px rgba(255, 255, 255, .6);
-    -webkit-box-shadow: inset 0 0 1px rgba(255, 255, 255, .6);
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-color:transparent;
-}
+.ttw-music-player .album-cover .img {display:none;}
 
-.ttw-music-player .album-cover .highlight {
-    background: transparent url(http://4.bp.blogspot.com/-iyIOoVk9JzE/Ve-tl0r823I/AAAAAAAABlo/l2zc1BPHMTs/s1600/album-cover-highlight.png) no-repeat 0 0 scroll;
-    opacity: 1;
-
-}
+.ttw-music-player .album-cover .highlight {display:none;}
 
 .ttw-music-player .album-cover:hover .highlight {
     opacity: 1;
@@ -41,21 +22,11 @@
 
 .ttw-music-player .album-cover,
 .ttw-music-player .album-cover .img,
-.ttw-music-player .album-cover .highlight {
-    display: block;
-    height: 129px;
-    width: 100px;
-}
+.ttw-music-player .album-cover .highlight {display:none;}
 
 .ttw-music-player .album-cover img,
 .ttw-music-player .album-cover .img,
-.ttw-music-player .album-cover .highlight {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height:129px;
-    width:100px;
-}
+.ttw-music-player .album-cover .highlight {display:none;}
 
 /** Track Info **/
 .ttw-music-player .track-info {
