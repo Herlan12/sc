@@ -112,28 +112,30 @@
 
 /** Player **/
 .ttw-music-player .player-controls {
-    width: 215px;
+    width: 100%;
     height: 30px;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     background: transparent ;
     float: left;
-    margin: 12px 0 0 30px;
-	bottom:5px;POSITION: fixed;right:5px;
-	background:#EA4F4F ;-moz-box-shadow:inset 0px 0px 4px 1px #fff7ed;-webkit-box-shadow:inset 0px 0px 4px 1px #fff7ed;box-shadow:inset 0px 0px 4px 1px #fff7ed;
-	-moz-box-shadow: inset 0px 0px 2px  #9B3047;
--webkit-box-shadow: inset 0px 0px 2px  #9B3047;
-box-shadow: inset 0px 0px 2px #9B3047;
-   
-    background: -moz-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #171717), color-stop(9%, #1F1F1F), color-stop(50%, #3B3B3B), color-stop(90%, #1F1F1F), color-stop(100%, #000000)); /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* ie10+ */
-    background: linear-gradient(0deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#000000',GradientType=0 ); /* ie6-9 */
+    margin: 22px 0 0 0;
+	margin-bottom: -18px;
+	background:-moz-box-shadow: inset 0px 0px 12px 2px #2B2216;
+	-webkit-box-shadow: inset 0px 0px 12px 2px #2B2216;
+	box-shadow: inset 0px 0px 12px 2px #2B2216;
+	/*Inner elements should not cover inner shadows*/
+/*IE 7 AND 8 DO NOT SUPPORT INSET SHADOWS*/
+border-radius: 6px;
 
+    background: -moz-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2B2216), color-stop(51%, #9D6542), color-stop(100%, #2B2216)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* ie10+ */
+    background: linear-gradient(0deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B2216', endColorstr='#2B2216',GradientType=0 ); /* ie6-9 */
+	
 }
 
 .ttw-music-player .player-controls .main {
@@ -223,25 +225,21 @@ box-shadow: inset 0px 0px 2px #9B3047;
 
 /** Track List **/
 .ttw-music-player .tracklist{padding: 10px 20px;
-	-moz-box-shadow: inset 0px 0px 12px 2px #9B3047;
-	-webkit-box-shadow: inset 0px 0px 12px 2px #9B3047;
-	box-shadow: inset 0px 0px 12px 2px #9B3047;
+	-moz-box-shadow: inset 0px 0px 12px 2px #2B2216;
+	-webkit-box-shadow: inset 0px 0px 12px 2px #2B2216;
+	box-shadow: inset 0px 0px 12px 2px #2B2216;
 	/*Inner elements should not cover inner shadows*/
 /*IE 7 AND 8 DO NOT SUPPORT INSET SHADOWS*/
-border-radius: 6px;
-	-moz-box-shadow: inset 0px 0px 2px  #9B3047;
--webkit-box-shadow: inset 0px 0px 2px  #9B3047;
-box-shadow: inset 0px 0px 2px #9B3047;
-    background: -moz-linear-gradient(90deg, #4D0000 0%, #CC0000 50%, #4D0000 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4D0000), color-stop(50%, #CC0000), color-stop(100%, #4D0000)); /* safari4+,chrome */
-    
-    background: -moz-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #171717), color-stop(9%, #1F1F1F), color-stop(50%, #3B3B3B), color-stop(90%, #1F1F1F), color-stop(100%, #000000)); /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* ie10+ */
-    background: linear-gradient(0deg, #000000 0%, #1F1F1F 10%, #3B3B3B 50%, #1F1F1F 91%, #171717 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#000000',GradientType=0 ); -moz-border-radius:6px;-webkit-border-radius:6px;color:#FCF47D;font-size:12px;max-height:250px;overflow:auto}
+
+    background: -moz-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2B2216), color-stop(51%, #9D6542), color-stop(100%, #2B2216)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* ie10+ */
+    background: linear-gradient(0deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B2216', endColorstr='#2B2216',GradientType=0 ); /* ie6-9 */
+
+color:#F8FF7D;font-weight:bold;font-size:12px;max-height:250px;overflow:auto}
 
 .ttw-music-player .tracklist ol {
     margin: 0;
