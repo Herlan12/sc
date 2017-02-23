@@ -112,15 +112,15 @@
 
 /** Player **/
 .ttw-music-player .player-controls {
-    width: 100%;
+    width: 215px;
     height: 30px;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     background: transparent ;
     float: left;
-    margin: 22px 0 0 0;
-	margin-bottom: -18px;
+    margin: 12px 0 0 30px;
+	bottom:5px;POSITION: fixed;right:5px;
 	background:-moz-box-shadow: inset 0px 0px 12px 2px #2B2216;
 	-webkit-box-shadow: inset 0px 0px 12px 2px #2B2216;
 	box-shadow: inset 0px 0px 12px 2px #2B2216;
@@ -136,6 +136,7 @@ border-radius: 6px;
     background: linear-gradient(0deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B2216', endColorstr='#2B2216',GradientType=0 ); /* ie6-9 */
 	
+
 }
 
 .ttw-music-player .player-controls .main {
@@ -238,8 +239,7 @@ border-radius: 6px;
     background: -ms-linear-gradient(90deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* ie10+ */
     background: linear-gradient(0deg, #2B2216 0%, #9D6542 49%, #2B2216 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B2216', endColorstr='#2B2216',GradientType=0 ); /* ie6-9 */
-
-color:#F8FF7D;font-weight:bold;font-size:12px;max-height:250px;overflow:auto}
+     -moz-border-radius:6px;-webkit-border-radius:6px;color:#FCF47D;font-size:12px;max-height:250px;overflow:auto}
 
 .ttw-music-player .tracklist ol {
     margin: 0;
